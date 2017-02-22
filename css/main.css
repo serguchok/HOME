@@ -10,7 +10,7 @@
         background: none;
         margin-top: 150px;
         border: none;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
     }
     
     .logo {
@@ -49,7 +49,7 @@
     .header-info h2 {
         color: #ffa800;
         font-size: 100px;
-        transform: scaleY(1.4);
+        letter-spacing: -3px;
         transform: scaleX(0.5);
         line-height: 123px;
         text-transform: uppercase;
@@ -87,33 +87,35 @@
     
     .purpura-blocktop {
         margin-bottom: 150px;
-    }
-    
-    .purpura-blocktop {
         text-transform: uppercase;
     }
     
     .purpura .number {
         font-size: 340px;
         color: #ffa800;
-        transform: scaleY();
+        letter-spacing: -2;
         transform: scaleX(0.6);
+        margin-left: 250px;
+    }
+    
+    .numberbox {
+        width: 600px;
     }
     
     .purpura-blocktop h2 {
         font-size: 70px;
         line-height: 80px;
         margin-top: 100px;
+        transform: scaleY(1);
+        transform: scaleX(0.9);
+        letter-spacing: -3px;
+        margin-left: -5%;
     }
     
-    .numberbox {
-        padding: 0;
-        width: 600px
-    }
-    
-    .numberbox p {
-        text-align: right;
-        margin-left: 250px;
+    .whitesquare p {
+        transform: scaleY(1.4);
+        margin-bottom: 7%;
+        margin-top: 4%;
     }
     
     .whitesquare {
@@ -132,8 +134,8 @@
     .bg-tools::before {
         content: "";
         position: absolute;
-        top: 95px;
-        left: -227px;
+        top: 0px;
+        left: -190px;
         width: 650px;
         height: 565px;
         background: url("../img/brush.png") center top no-repeat;
@@ -498,4 +500,49 @@
         font-size: 24px;
         line-height: 50px;
         margin-top: 2%;
+    }
+    
+    .team-info p {
+        font-size: 18px;
+        list-style: 30px;
+    }
+    
+    .team-name-address {
+        text-transform: uppercase;
+    }
+    
+    .teamblock .name {
+        font-weight: 600;
+    }
+    
+    .teamblock {
+        width: 370px;
+        margin-right: 30px;
+        background: #fff;
+        margin-top: 65px;
+    }
+    
+    .team .team2 {
+        background: #694fca;
+        color: #fff;
+    }
+    
+    .team2 .team-name-address {
+        color: #e19628;
+    }
+    
+    .teamblock:nth-child(3) {
+        margin-right: 0;
+    }
+    
+    .team-photo {
+        margin: 45px 0 105px 0;
+    }
+    
+    .team-info {
+        margin-bottom: 45px;
+    }
+    
+    .team-name-address {
+        margin-bottom: 45px;
     }
