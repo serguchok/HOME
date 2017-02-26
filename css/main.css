@@ -502,6 +502,24 @@
         margin-top: 2%;
     }
     
+    .team-photo ul {
+        list-style: none;
+        margin-top: 50px;
+    }
+    
+    .team-photo li {
+        display: inline;
+    }
+    
+    .team-photo li:before {
+        content: "\2606";
+        color: #e19628;
+        position: relative;
+        top: 0px;
+        right: 20px;
+        font-size: 30px;
+    }
+    
     .team-info p {
         font-size: 18px;
         list-style: 30px;
@@ -525,6 +543,7 @@
     .team .team2 {
         background: #694fca;
         color: #fff;
+        box-shadow: 0px 20px 70px #5a5959;
     }
     
     .team2 .team-name-address {
@@ -536,7 +555,7 @@
     }
     
     .team-photo {
-        margin: 45px 0 105px 0;
+        margin: 45px 0 100px 0;
     }
     
     .team-info {
@@ -545,4 +564,64 @@
     
     .team-name-address {
         margin-bottom: 45px;
+    }
+    
+    footer {
+        background-color: #212121;
+    }
+    
+    .top-footer {
+        border-bottom: 1px solid #2c2c2c;
+    }
+    
+    footer h3 {
+        color: #fff;
+        font-size: 14px;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+    
+    .top-footer-logo img {
+        margin: 27px 0;
+    }
+    
+    .bottom-footer-aboutas-img {
+        padding: 0;
+    }
+    
+    .bottom-footer-aboutas-text {
+        color: #808080;
+        font-size: 12px;
+        line-height: 30px;
+        margin-top: 75px;
+    }
+    
+    .soc .soc-list {
+        list-style: none;
+        font-size: 20px;
+        padding: 0;
+    }
+    
+    .soc-list li {
+        display: inline-block;
+        margin-right: 10px;
+        background-color: #4d4d4d;
+        border-radius: 50%;
+        padding: 0 9px;
+    }
+    
+    .form-group .form-control {
+        background-color: #212121;
+        border: 1px solid #454545;
+        padding: 14px;
+        font-size: 12px;
+        line-height: 50px;
+    }
+    
+    .bottom-footer-newsletter .btn {
+        background: #694fca;
+    }
+    
+    .post1-text {
+        width: 320px;
     }
