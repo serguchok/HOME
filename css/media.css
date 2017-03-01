@@ -1,0 +1,165 @@
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1199px) {
+    .block h2 {
+        font-size: 32px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 991px) {
+    .block {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 767px) {
+    .block a {
+        font-size: 22px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .container-fluid {
+        padding: 0;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .container-header-whitesquare {
+        display: none;
+    }
+    .whitesquare {
+        border: none;
+        width: 100vw;
+        text-align: center;
+    }
+    .numberbox {
+        width: 100vw;
+        text-align: center;
+    }
+    .purpura .number {
+        margin-left: 2%;
+    }
+    .purpura-blocktop h2 {
+        /*font-size: 50px;*/
+    }
+    .whitesquare p {
+        font-size: 12px;
+        width: 90vw;
+    }
+    .bg-tools::before {
+        display: none;
+    }
+    .purpura-blocksecret {
+        width: 100vw;
+        text-align: center;
+    }
+    .secret-right {
+        width: 100vw;
+    }
+    .unity {
+        font-size: 50px;
+        line-height: 32px;
+        top: 80px;
+        z-index: 1;
+    }
+    .love {
+        font-size: 25px;
+        line-height: 20px;
+        z-index: 2;
+        width: 90vw;
+        left: 2%
+    }
+    .world {
+        font-size: 20px;
+        line-height: 30px;
+        z-index: 2;
+        left: 0;
+        width: 90vw;
+    }
+    .blacksquare {
+        display: none;
+    }
+    .blacksquare-honor {
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        width: 100vw;
+        height: 25vh;
+        text-align: center;
+    }
+    .pencils::before {
+        display: none;
+    }
+    .numberbox02 {
+        width: 100vw;
+    }
+    .numberbox02 .number {
+        font-size: 28vh;
+        margin-top: 10vh;
+        margin-left: 0;
+        text-align: center;
+        margin: 0;
+    }
+    .whatwedo {
+        margin: 0;
+    }
+    .whatwedosquare {
+        border: none;
+        width: 100vw;
+        height: 40vh;
+        padding: 0;
+    }
+    .images {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+    .numberbox03 {
+        width: 100vw;
+    }
+    .whatwedo .number {
+        font-size: 28vh;
+        margin-top: 10vh;
+        margin-left: 0;
+        text-align: center;
+        margin: 0
+    }
+    .service {
+        width: 100vw;
+    }
+    .service span {
+        padding: 0;
+    }
+    .winter-title p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-top: 20vh;
+    }
+    .teamblock {
+        width: 90vw;
+        margin: 3vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .block p {
+        min-height: 155px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .block p {
+        font-size: 16px;
+    }
+}

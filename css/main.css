@@ -2,7 +2,7 @@
         font-family: "Abraham-Lincoln";
     }
     
-    .header {
+    header {
         background: #1d1d1d url("../img/bg-header.png") center bottom no-repeat;
     }
     
@@ -91,7 +91,7 @@
     }
     
     .purpura .number {
-        font-size: 340px;
+        font-size: 35vh;
         color: #ffa800;
         letter-spacing: -2;
         transform: scaleX(0.6);
@@ -99,7 +99,7 @@
     }
     
     .numberbox {
-        width: 600px;
+        width: 595px;
     }
     
     .purpura-blocktop h2 {
@@ -322,10 +322,6 @@
         width: 892px;
         margin-top: 7%;
         margin-left: 5%
-    }
-    
-    .whatwedosquare img {
-        /*margin-left: 25px;*/
     }
     
     .numberbox03 {
