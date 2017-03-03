@@ -48,6 +48,21 @@
     
     .header-info h2 {
         color: #ffa800;
+        font-size: calc(4.8rem + 4.8vmin);
+        transform: scaleX(0.5);
+        line-height: calc(6rem + 6vmin);
+        text-transform: uppercase;
+    }
+    
+    .header-info p {
+        color: #fff;
+        font-size: calc(1em + 0.8vmin);
+        line-height: calc(1em + 0.8vmin);
+        transform: scaleY(1.5);
+        text-transform: uppercase;
+    }
+    /*.header-info h2 {
+        color: #ffa800;
         font-size: 100px;
         letter-spacing: -3px;
         transform: scaleX(0.5);
@@ -60,7 +75,7 @@
         font-size: 28px;
         line-height: 40px;
         text-transform: uppercase;
-    }
+    }*/
     
     .qwe {
         margin-top: 240px;
@@ -68,12 +83,11 @@
     }
     
     .header-whitesquare {
-        width: 690px;
+        width: calc(35rem + 35vmin);
         height: 350px;
         border-top: 15px solid white;
         border-left: 15px solid white;
         border-right: 15px solid white;
-        margin-left: -34px
     }
     
     .purpura {
@@ -90,26 +104,24 @@
         text-transform: uppercase;
     }
     
-    .purpura .number {
+    .numberbox .number {
         font-size: 35vh;
         color: #ffa800;
         letter-spacing: -2;
         transform: scaleX(0.6);
-        margin-left: 250px;
+        margin-left: calc(15rem + 15vmin);
     }
     
     .numberbox {
-        width: 595px;
+        width:
     }
     
     .purpura-blocktop h2 {
-        font-size: 70px;
-        line-height: 80px;
+        font-size: calc(3rem + 3vmin);
+        /*font-size: 70px;
+        line-height: 80px;*/
+        line-height: calc(4rem + 4vmin);
         margin-top: 100px;
-        transform: scaleY(1);
-        transform: scaleX(0.9);
-        letter-spacing: -3px;
-        margin-left: -5%;
     }
     
     .whitesquare p {
@@ -119,25 +131,27 @@
     }
     
     .whitesquare {
-        width: 690px;
+        /*width: 690px;*/
+        width: calc(35rem + 35vmin);
         border-bottom: 15px solid white;
         border-left: 15px solid white;
         border-right: 15px solid white;
-        z-index: 1;
     }
     
     .bg-tools {
-        width: 120px;
-        z-index: 2;
+        width: calc(10rem + 10vmin);
     }
     
     .bg-tools::before {
         content: "";
         position: absolute;
         top: 0px;
-        left: -190px;
+        /*left: -190px;
         width: 650px;
-        height: 565px;
+        height: 565px;*/
+        left: calc(-9rem + -9vmin);
+        width: calc(40rem + 40vmin);
+        height: calc(35rem + 35vmin);
         background: url("../img/brush.png") center top no-repeat;
         background-position: 0px 0;
     }
@@ -151,16 +165,21 @@
     }
     
     .purpura-blocksecret h2 {
-        font-size: 60px;
-        line-height: 60px;
+        /*font-size: 60px;
+        line-height: 60px;*/
+        font-size: calc(3.2rem + 3vmin);
+        line-height: calc(3.2rem + 3vmin);
+        text-transform: none;
     }
     
     .secret-left {
-        width: 434px;
+        /*width: 434px;*/
+        width: calc(15rem + 16vmin);
     }
     
     .secret-right {
-        width: 736px;
+        /* width: 38vw;*/
+        width: calc(35rem + 36vmin);
         margin-top: 80px;
     }
     
@@ -200,42 +219,58 @@
     
     .building {
         background: #bfbfc0 url("../img/bg-build.png") center top no-repeat;
-        min-height: 1469px;
+        /*min-height: 1469px;*/
     }
     
     .unity,
     .love,
     .world {
-        position: relative;
+        /*position: relative;*/
     }
     
     .unity {
         color: #b7b7b8;
-        font-size: 260px;
-        line-height: 332px;
-        top: 190px;
+        /*font-size: 260px;
+        line-height: 332px;*/
+        font-size: calc(11rem + 15vmin);
+        line-height: calc(11rem + 15vmin);
+        /*top: 190px;*/
+        margin-top: calc(15rem + 15vmin);
         text-transform: uppercase;
         transform: scaleY(2);
-        transform: scaleX();
+        text-align: center;
         z-index: 1;
     }
     
     .love {
         color: #000;
-        font-size: 100px;
-        line-height: 78px;
+        /*font-size: 100px;
+        line-height: 78px;*/
+        font-size: calc(4rem + 4vmin);
+        line-height: calc(4rem + 4vmin);
         z-index: 2;
+        transform: scaleY(1.2);
         text-transform: uppercase;
-        left: 25%;
-        width: 1140px;
+        text-align: center;
+        /*top: calc(15rem + 15vmin);*/
+        /*left: 25%;*/
+        /*width: 1140px;*/
     }
     
     .world {
-        font-size: 20px;
+        /*font-size: 20px;
         line-height: 30px;
         z-index: 2;
         left: 30%;
-        width: 860px;
+        width: 860px;*/
+        font-size: calc(1.1rem + 1.1vmin);
+        line-height: calc(1.7rem + 1.7vmin);
+        z-index: 2;
+        text-align: center;
+        margin-top: calc(7rem + 7vmin);
+        */
+        /*left: 30%;*/
+        /*width: 860px;*/
     }
     
     .empty-contrnt-left {}
@@ -244,9 +279,11 @@
         border-top: 15px solid black;
         border-left: 15px solid black;
         border-right: 15px solid black;
-        margin-top: 635px;
-        width: 690px;
-        height: 365px;
+        margin-top: 213px;
+        /*width: 690px;
+        height: 365px;*/
+        width: calc(35rem + 35vmin);
+        height: calc(17rem + 18vmin);
     }
     
     .empty-contrnt-right {}
@@ -257,20 +294,24 @@
         border-bottom: 15px solid black;
         border-left: 15px solid black;
         border-right: 15px solid black;
-        width: 690px;
-        height: 365px;
+        /*width: 690px;
+        height: 365px;*/
+        width: calc(35rem + 35vmin);
+        height: calc(17rem + 18vmin);
         z-index: 1;
     }
     
     .pencils {
-        width: 634px;
         z-index: 2;
     }
     
     .pencils::before {
         content: "";
         position: absolute;
-        top: 120px;
+        top: 140px;
+        /*left: 500px;*/
+        width: 477px;
+        height: 422px;
         left: 500px;
         width: 477px;
         height: 422px;
@@ -279,11 +320,13 @@
     }
     
     .numberbox02 {
-        width: 300px;
+        /*width: 300px;*/
+        width: calc(20rem + 20vmin);
     }
     
     .numberbox02 .number {
-        font-size: 340px;
+        /*font-size: 340px;*/
+        font-size: calc(20rem + 20vmin);
         transform: scaleY();
         transform: scaleX(0.6);
         color: #000;
@@ -314,18 +357,20 @@
         border-right: 15px solid black;
         width: 690px;
         height: 690px;
-        z-index: 1;
+        margin-right: 40px;
     }
     
     .images {
-        z-index: 2;
         width: 892px;
-        margin-top: 7%;
-        margin-left: 5%
+        top: 7%;
+        left: 5%;
+        bottom: 5%;
+        position: absolute;
     }
     
     .numberbox03 {
-        width: 420px;
+        /*width: 550px;*/
+        width: 15%;
     }
     
     .whatwedo .number {
@@ -334,23 +379,26 @@
         transform: scaleX(0.6);
         color: #000;
         margin-top: 450px;
-        margin-left: 200px;
     }
     
     .service {
-        width: 690px;
+        width: 630px;
+    }
+    
+    .photo {
+        text-align: right;
     }
     
     .service span {
         font-size: 25px;
         line-height: 100px;
         text-transform: uppercase;
-        padding-right: 155px;
+        padding: 10px 0;
         letter-spacing: -2px;
     }
     
-    .service span:nth-child(2n) {
-        padding-right: 0px;
+    .service img {
+        margin-right: 1vw;
     }
     
     .sectionservicetwo {
@@ -361,95 +409,23 @@
         border-top: 2px solid #e6e6e6;
     }
     
-    .sectionserviceone span {
-        margin-left: 8%;
-    }
-    
-    .sectionserviceone .creat::before {
-        content: "";
-        position: absolute;
-        top: 45px;
-        left: -5px;
-        width: 33px;
-        height: 34px;
-        background: url("../img/icon-sevices2.png");
-        background-position: 0px 0;
-    }
-    
-    .sectionserviceone .photo::before {
-        content: "";
-        position: absolute;
-        top: 45px;
-        right: 235px;
-        width: 33px;
-        height: 34px;
-        background: url("../img/icon-sevices5.png") center top no-repeat;
-        background-position: 0px 0;
-    }
-    
-    .sectionservicetwo span {
-        /*margin-left: 16%;*/
+    .sectionserviceone .creat {
+        /*margin-right: 6vw;*/
+        margin-right: 3vw;
     }
     
     .sectionservicetwo .copy {
-        margin-left: 9%;
+        /*margin-right: 10vw;*/
+        margin-right: 7vw;
     }
     
-    .sectionservicetwo .vfx {
-        margin-left: 15%;
-    }
-    
-    .sectionservicetwo .copy::before {
-        content: "";
-        position: absolute;
-        top: 130px;
-        left: 0px;
-        width: 33px;
-        height: 34px;
-        background: url("../img/icon-sevices1.png") center top no-repeat;
-        background-position: 0px 0;
-    }
-    
-    .sectionservicetwo .vfx::before {
-        content: "";
-        position: absolute;
-        top: 137px;
-        right: 230px;
-        width: 33px;
-        height: 34px;
-        background: url("../img/icon-sevices4.png") center top no-repeat;
-        background-position: 0px 0;
-    }
-    
-    .sectionservicethree span {
-        margin-left: 9%;
-    }
-    
-    .sectionservicethree .product::before {
-        content: "";
-        position: absolute;
-        top: 240px;
-        left: 0px;
-        width: 33px;
-        height: 34px;
-        background: url("../img/icon-sevices.png") center top no-repeat;
-        background-position: 0px 0;
-    }
-    
-    .sectionservicethree .digital::before {
-        content: "";
-        position: absolute;
-        top: 240px;
-        right: 230px;
-        width: 33px;
-        height: 34px;
-        background: url("../img/icon-sevices3.png") center top no-repeat;
-        background-position: 0px 0;
+    .sectionservicethree .product {
+        /*margin-right: 8vw;*/
+        margin-right: 5vw;
     }
     
     .winter {
         background: url(../img/bg-winter1.png) center top no-repeat;
-        min-height: 2560px;
     }
     
     .winter-title {
@@ -465,8 +441,10 @@
     }
     
     .winter-title p {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 50px;
+        transform: scaleX(0.6);
+        text-transform: uppercase;
     }
     
     .bottom-line-wrapper {
@@ -492,10 +470,11 @@
         border: 0;
     }
     
-    .winter-title .customers {
+    .customers {
         font-size: 24px;
         line-height: 50px;
         margin-top: 2%;
+        text-align: center;
     }
     
     .team-photo ul {
@@ -534,6 +513,10 @@
         margin-right: 30px;
         background: #fff;
         margin-top: 65px;
+    }
+    
+    .team {
+        padding-bottom: 206px;
     }
     
     .team .team2 {

@@ -1,8 +1,18 @@
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1199px) {
-    .block h2 {
-        font-size: 32px;
+    .numberbox .number {
+        margin-left: 10%;
+        /*margin-left: ;*/
+    }
+    .bg-tools {
+        display: none;
+    }
+    .blacksquare-honor h2 {
+        margin-top: 71px;
+    }
+    .pencils::before {
+        display: none;
     }
 }
 
@@ -28,26 +38,28 @@
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
-    .container-fluid {
-        padding: 0;
-    }
-    h2 {
-        font-size: 50px;
+    header {
+        width: 100%;
     }
     .container-header-whitesquare {
         display: none;
     }
     .whitesquare {
         border: none;
-        width: 100vw;
+        width: 100%;
         text-align: center;
     }
     .numberbox {
-        width: 100vw;
-        text-align: center;
+        width: 100%;
     }
-    .purpura .number {
-        margin-left: 2%;
+    .numberbox .number {
+        font-size: 28vh;
+        margin-top: 10vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .purpura {
+        width: 100%;
     }
     .purpura-blocktop h2 {
         /*font-size: 50px;*/
@@ -56,23 +68,29 @@
         font-size: 12px;
         width: 90vw;
     }
-    .bg-tools::before {
+    .bg-tools {
         display: none;
     }
     .purpura-blocksecret {
-        width: 100vw;
         text-align: center;
     }
-    .secret-right {
-        width: 100vw;
+    .secret-left {
+        width: 100%;
     }
+    .secret-right {
+        width: 100%;
+    }
+    .building-content {}
     .unity {
         font-size: 50px;
         line-height: 32px;
         top: 80px;
         z-index: 1;
     }
-    .love {
+    .building {
+        width: 100%;
+    }
+    /*.love {
         font-size: 25px;
         line-height: 20px;
         z-index: 2;
@@ -85,60 +103,63 @@
         z-index: 2;
         left: 0;
         width: 90vw;
-    }
+    }*/
     .blacksquare {
         display: none;
     }
     .blacksquare-honor {
-        border-bottom: none;
-        border-left: none;
-        border-right: none;
-        width: 100vw;
+        border: none;
         height: 25vh;
         text-align: center;
+        width: 100%;
     }
-    .pencils::before {
+    .pencils {
         display: none;
     }
     .numberbox02 {
-        width: 100vw;
+        width: 100%;
+        margin-top: 10vh;
+        margin-left: 0;
     }
     .numberbox02 .number {
         font-size: 28vh;
-        margin-top: 10vh;
-        margin-left: 0;
         text-align: center;
-        margin: 0;
     }
     .whatwedo {
-        margin: 0;
+        width: 100%;
     }
     .whatwedosquare {
         border: none;
-        width: 100vw;
+        width: 100%;
         height: 40vh;
-        padding: 0;
     }
+    #home-slider {}
     .images {
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
+        width: 100%;
+        height: 40vh;
     }
     .numberbox03 {
-        width: 100vw;
+        width: 100%;
     }
     .whatwedo .number {
         font-size: 28vh;
         margin-top: 10vh;
-        margin-left: 0;
         text-align: center;
-        margin: 0
     }
     .service {
-        width: 100vw;
+        width: 100%;
+        text-align: center;
     }
     .service span {
-        padding: 0;
+        font-size: 25px;
+        line-height: 100px;
+        text-transform: uppercase;
+        padding: 10px 0;
+        letter-spacing: -2px;
+    }
+    .service img {
+        display: block;
+        margin: 0 auto;
     }
     .winter-title p {
         font-size: 20px;
@@ -147,8 +168,7 @@
         margin-top: 20vh;
     }
     .teamblock {
-        width: 90vw;
-        margin: 3vw;
+        width: 100%;
     }
 }
 
